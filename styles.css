@@ -6,5 +6,25 @@
   box-sizing: border-box;
 }
 
+:root {
+  /* Primary colors */
+  --Paleblue: hsl(225, 100%, 94%);
+  --Brightblue: hsl(245, 75%, 52%);
+
+  /* Neutral colors */
+  --Verypaleblue: hsl(225, 100%, 98%);
+  --Desaturatedblue: hsl(224, 23%, 55%);
+  --Darkblue: hsl(223, 47%, 23%);
+
+  /* font weight */
+  --weight1: 500;
+  --weight2: 700;
+  --weight: 900;
+
+  /* font-size */
+  --size: 1rem;
+}
+
 body {
+  font-family: "Red Hat Display" sans-serif;
 }
