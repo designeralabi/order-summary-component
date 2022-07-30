@@ -1,6 +1,6 @@
 # Frontend Mentor - Order summary card
 
-![Design preview for the Order summary card coding challenge](https://ibb.co/WDqyYRy)
+![Design preview for the Order summary card coding challenge](/desktop-design.jpg)
 
 ## The challenge
 
