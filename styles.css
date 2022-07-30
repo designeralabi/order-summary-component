@@ -34,13 +34,6 @@ body {
   height: 100vh;
 }
 
-#hero_img {
-  width: 100%;
-  display: block;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
 .card-wrapper {
   width: 90%;
   margin: 10% auto;
@@ -52,6 +45,13 @@ body {
   border-radius: 20px;
   background-color: #fff;
   max-width: 340px;
+}
+
+#hero_img {
+  width: 100%;
+  display: block;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .card_bottom_container {
