@@ -17,14 +17,130 @@
   --Darkblue: hsl(223, 47%, 23%);
 
   /* font weight */
-  --weight1: 500;
-  --weight2: 700;
-  --weight: 900;
+  --weight5: 500;
+  --weight7: 700;
+  --weight9: 900;
 
   /* font-size */
   --size: 1rem;
+  --size2: 1.2rem;
 }
 
 body {
-  font-family: "Red Hat Display" sans-serif;
+  font-family: "Red Hat Display", sans-serif;
+  background: url(/images//pattern-background-mobile.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#hero_img {
+  width: 100%;
+  display: block;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card-wrapper {
+  width: 90%;
+  margin: 10% auto;
+  box-shadow: 0 0 5px 0 var(--Desaturatedblue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #fff;
+  max-width: 340px;
+}
+
+.card_bottom_container {
+  padding: 25px;
+}
+
+.card_hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px 12px;
+  line-height: 1.4rem;
+}
+
+.card_hero p {
+  color: var(--Desaturatedblue);
+  font-size: 0.86rem;
+}
+
+h3 {
+  font-weight: var(--weight9);
+  font-size: var(--size2);
+  margin-bottom: 20px;
+}
+
+.card_subscription {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--Verypaleblue);
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px 0;
+}
+
+.card_subscription_plans span {
+  font-size: 0.8rem;
+  display: block;
+  color: var(--Desaturatedblue);
+}
+
+.card_subscription_link {
+  font-size: 0.9rem;
+  display: block;
+}
+
+.card_btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--size);
+}
+
+.card_btn {
+  outline: none;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  font-weight: var(--weight7);
+  margin: 10px;
+}
+
+.active {
+  background: var(--Brightblue);
+  color: #fff;
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 10px 11px 1px var(--Brightblue);
+}
+
+.disabled {
+  background-color: transparent;
+  color: var(--Desaturatedblue);
+}
+
+@media (min-width: 700px) {
+  body {
+    background: url(/images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .card-wrapper {
+    width: 90%;
+    margin: 5% auto;
+  }
 }
